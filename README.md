@@ -43,4 +43,4 @@
 ## 📬 문의 / 참여
 
 - GitHub Issue 또는 PR로 연락주세요.
-- 협업 문의: [youremail@example.com](mailto:youremail@example.com)
+- 협업 문의: [thepub03@gmail.com](mailto:thepub03@gmail.com)
