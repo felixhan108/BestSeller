@@ -42,71 +42,36 @@
 
 ## 🚀 프로젝트 스펙
 
-### 🔍 기술 선택 배경
-이번 프로젝트는 디자인 시스템과 프론트엔드, 백엔드, 데이터베이스까지 일관된 아키텍처로 통합하며, 다음과 같은 목표를 가지고 기술을 선택하였습니다:
+> **기술 스택 및 아키텍처 설명**
+이 프로젝트는 프론트엔드와 백엔드, 디자인 시스템이 유기적으로 연결된 구조를 갖고 있으며, 다음과 같은 기술 스택을 채택했습니다.
 
-협업 중심 디자인 시스템 구축: Figma + Atomic Design + Storybook 조합으로, 개발자와 디자이너 간의 인터페이스 명확화
-
-확장 가능한 프론트엔드: Next.js App Router를 사용해, CSR/SSR, API 연동 및 서버리스 함수 활용까지 유연하게 대응
-
-유연한 백엔드 아키텍처: Java, Python, Node.js 기반 선택지로 다양한 규모/형태의 API 서비스 구성 가능
-
-GraphQL 기반 통합 데이터 처리: Apollo Server/Client를 활용해, 클라이언트가 필요한 데이터만 효율적으로 주고받는 구조
-
-하이브리드 데이터 스토리지 구성: 관계형 DB(PostgreSQL) + 실시간/비정형 처리용 NoSQL(MongoDB, Firestore) 병행
-
-실시간성과 인증 통합: Firebase 활용으로 사용자 인증, 실시간 업데이트, 서버리스 이벤트 처리까지 통합 관리
-
-### 🎨 UI & 디자인 시스템
-디자인 툴: Figma
-→ 협업 및 디자인 시스템 기반 컴포넌트 설계에 최적화
-
-디자인 패턴: Atomic Design
-→ 재사용 가능한 UI 구조 구축에 유리
-
-UI 컴포넌트: Headless UI 기반 커스터마이징
-→ 접근성 보장 및 스타일링 유연성 확보
-
-컴포넌트 문서화: Storybook
-→ 컴포넌트 단위 개발 및 시각적 테스트 지원
-
-### 💻 프론트엔드
-프레임워크: Next.js (App Router 기반)
-→ CSR/SSR/Suspense를 유연하게 활용 가능하며, 서버 기능 통합이 쉬움
-
-스타일링: Tailwind CSS
-→ 유틸리티 퍼스트 방식으로 빠른 UI 구성과 일관된 스타일 유지
-
-상태 관리: React Hooks, Context API
-→ 복잡도에 따라 Recoil, Zustand 등의 확장 고려
-
-### 🛠 백엔드
-프로젝트 특성에 따라 상황에 맞는 백엔드 스택을 선택 가능
-
-Java (Spring Boot)
-→ 대규모 서비스에 적합하며 안정성과 확장성 우수
-
-Python (Flask)
-→ 간결한 문법과 빠른 프로토타이핑에 유리
-
-Node.js + Express
-→ 비동기 처리에 강하며 GraphQL 서버(Apollo)와의 궁합이 좋음
-
-Next.js App Router (API Route)
-→ 프론트와 백엔드 통합 환경 제공, 서버리스 함수 구조에도 적합
-
-### 🗃 데이터베이스 및 인증
-GraphQL API: Apollo Server / Client
-→ 명확한 쿼리 구조와 클라이언트 데이터 요청 최적화
-
-관계형 데이터베이스: PostgreSQL
-→ 데이터 무결성과 복잡한 조인 처리가 필요한 경우에 적합
-
-비관계형 데이터 저장소: MongoDB / Firestore
-→ 실시간 처리나 비정형 데이터 구조에 적합
-
-실시간 기능 및 인증: Firebase Authentication, Firestore, Cloud Functions
-→ 빠른 인증 연동 및 실시간 데이터 처리에 유리
+- **UI/UX**
+    - `Figma` + `Atomic Design`: 디자인 시스템 구조화
+    - `Headless UI`: 접근성 고려된 컴포넌트 베이스
+    - `Storybook`: 컴포넌트 단위 문서화 및 개발 분리
+        
+- **Frontend**
+    - `Next.js (App Router)`: CSR/SSR/Suspense 통합
+    - `Tailwind CSS`: 빠른 UI 스타일링
+    - `React Hooks`, `Context API`: 기본 상태 관리
+    - 확장 옵션: `Recoil`, `Zustand`
+        
+- **Backend** _(선택형 모듈 구성)_
+    - `Java (Spring Boot)`: 엔터프라이즈 수준 안정성
+    - `Python (Flask)`: 경량 마이크로서비스 구축
+    - `Node.js (Express + Apollo)`: GraphQL 서버 구축
+    - `Next.js API Routes`: 프론트 통합 서버리스 함수
+        
+- **API Layer**
+    - `GraphQL (Apollo Server / Client)`: 명확한 데이터 구조와 쿼리 최적화
+        
+- **Database**
+    - `PostgreSQL`: 관계형 데이터 저장
+    - `MongoDB / Firestore`: 실시간 / 문서 기반 데이터 처리
+        
+- **실시간 기능 & 인증**
+    - `Firebase Authentication`
+    - `Firestore` + `Cloud Functions` (서버리스 이벤트 대응 포함)
 
 ---
 
