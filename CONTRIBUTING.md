@@ -5,9 +5,9 @@
 
 | 이름 | 역할 | 연락처 / GitHub |
 |------|------|------------------|
-| Han Sungsoo | 기획 & 백엔드 개발 | [@sungsoohan](https://github.com/sungsoohan) |
-| (Your name) | 프론트엔드 개발 | [@yourGitHub](https://github.com/yourGitHub) |
-| (Your name) | 공공데이터 가공 | (optional) |
+| Felixi Han | 기획 & 백엔드 개발 | [@sungsoohan](https://github.com/felixhan108) |
+| (Felixi Han) | 프론트엔드 개발 | (optional) |
+| (Felixi Han) | 공공데이터 가공 | (optional) |
 | 🙋‍♀️ You! | 새로운 기여자 환영! | PR 보내주세요! |
 
 > 👇 PR 보내거나 이슈를 남기면 자동으로 여기에 추가될 수 있어요.  
