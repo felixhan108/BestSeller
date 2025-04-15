@@ -48,27 +48,22 @@
 - **UI/UX**
     - `Figma` + `Atomic Design`: 디자인 시스템 구조화
     - `Headless UI`: 접근성 고려된 컴포넌트 베이스
-    - `Storybook`: 컴포넌트 단위 문서화 및 개발 분리
-        
+    - `Storybook`: 컴포넌트 단위 문서화 및 개발 분리  
 - **Frontend**
     - `Next.js (App Router)`: CSR/SSR/Suspense 통합
     - `Tailwind CSS`: 빠른 UI 스타일링
     - `React Hooks`, `Context API`: 기본 상태 관리
-    - 확장 옵션: `Recoil`, `Zustand`
-        
+    - 확장 옵션: `Recoil`, `Zustand`   
 - **Backend** _(선택형 모듈 구성)_
     - `Java (Spring Boot)`: 엔터프라이즈 수준 안정성
     - `Python (Flask)`: 경량 마이크로서비스 구축
     - `Node.js (Express + Apollo)`: GraphQL 서버 구축
-    - `Next.js API Routes`: 프론트 통합 서버리스 함수
-        
+    - `Next.js API Routes`: 프론트 통합 서버리스 함수  
 - **API Layer**
-    - `GraphQL (Apollo Server / Client)`: 명확한 데이터 구조와 쿼리 최적화
-        
+    - `GraphQL (Apollo Server / Client)`: 명확한 데이터 구조와 쿼리 최적화 
 - **Database**
     - `PostgreSQL`: 관계형 데이터 저장
-    - `MongoDB / Firestore`: 실시간 / 문서 기반 데이터 처리
-        
+    - `MongoDB / Firestore`: 실시간 / 문서 기반 데이터 처리  
 - **실시간 기능 & 인증**
     - `Firebase Authentication`
     - `Firestore` + `Cloud Functions` (서버리스 이벤트 대응 포함)
@@ -78,4 +73,10 @@
 ## 📬 문의 / 참여
 
 - GitHub Issue 또는 PR로 연락주세요.
-- 협업 문의: [thepub03@gmail.com](mailto:thepub03@gmail.com)
+👉 [CONTRIBUTING.md](https://github.com/felixhan108/BestSeller/blob/master/CONTRIBUTING.md)
+
+## 📝 License
+
+이 프로젝트는 MIT License를 따릅니다.  
+자유롭게 사용, 수정, 배포하실 수 있으며, 기여도 언제든 환영입니다.
+
